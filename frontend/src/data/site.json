@@ -1,0 +1,24 @@
+{
+  "name": "Muhammad Arslan Riaz",
+  "shortName": "Arslan Riaz",
+  "title": "Senior Software Engineer · Full Stack & AI",
+  "tagline": "I build production-grade web platforms and AI-powered systems — from government portals serving millions to RAG chatbots like the one on this site.",
+  "location": "Abu Dhabi, United Arab Emirates",
+  "email": "arslanriaz152@gmail.com",
+  "phone": "+971567379531",
+  "linkedin": "https://www.linkedin.com/in/muhammad-arslan-riaz-859a2315a/",
+  "github": "",
+  "resumeUrl": "/Muhammad_Arslan_Riaz_CV.pdf",
+  "nav": [
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "AI Assistant", "href": "#ai" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "seo": {
+    "title": "Muhammad Arslan Riaz — Full Stack & AI Engineer",
+    "description": "Senior Software Engineer in Abu Dhabi with 8+ years across MERN, Next.js, NestJS, AWS and applied AI. Ask my RAG-powered AI assistant anything about my work."
+  }
+}

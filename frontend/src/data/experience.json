@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "role": "Senior Software Engineer",
+      "company": "Reach Group",
+      "location": "Abu Dhabi, UAE",
+      "period": "Apr 2023 – Present",
+      "current": true,
+      "description": "Leading full-stack development of enterprise platforms. Driving the adoption of AI-powered features — LLM integrations, semantic search and RAG-based assistants — alongside core product engineering with Next.js, Node.js and AWS.",
+      "tags": ["Next.js", "Node.js", "AI/RAG", "AWS", "Leadership"]
+    },
+    {
+      "role": "Consultant Developer",
+      "company": "Systems Ltd",
+      "location": "Lahore, Pakistan",
+      "period": "Feb 2022 – Mar 2023",
+      "description": "Consulted on national-scale government and enterprise systems, including TAMM — the Abu Dhabi Government services platform — and cross-platform mobile products built with React Native and NestJS on Azure.",
+      "tags": ["Node.js", "React Native", "NestJS", "Azure", "Angular", ".NET"]
+    },
+    {
+      "role": "Full Stack Developer (MERN)",
+      "company": "Renesis Tech",
+      "location": "Lahore, Pakistan",
+      "period": "Oct 2020 – Jan 2022",
+      "description": "Built marketplace and media platforms end to end on the MERN stack with NestJS — job marketplaces, video platforms with paid content, and serverless fintech systems on AWS.",
+      "tags": ["MongoDB", "Express", "React", "NestJS", "AWS Serverless"]
+    },
+    {
+      "role": "Senior Web Developer",
+      "company": "GeniTeam Pvt. Ltd",
+      "location": "Lahore, Pakistan",
+      "period": "Apr 2018 – Sep 2020",
+      "description": "Owned multiple client projects simultaneously in the web team, handling direct client communication. Led projects from e-commerce and booking platforms to ed-tech, and built Unity 3D web games including accessible games for children with visual impairments.",
+      "tags": ["React", "Node.js", "Sails.js", "SQL", "Unity 3D", "Project Lead"]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "EagleIA",
+      "location": "Lahore, Pakistan",
+      "period": "Sep 2017 – Mar 2018",
+      "description": "Owned a full product lifecycle early in my career — an events/learning platform and a taxi-bidding marketplace — using Angular, Java Spring and MongoDB.",
+      "tags": ["Angular", "Java", "Spring", "MongoDB"]
+    }
+  ],
+  "education": {
+    "degree": "BS Computer Science (Hons)",
+    "institution": "University of Management & Technology (UMT), Lahore",
+    "year": "2017",
+    "detail": "GPA 3.7"
+  }
+}

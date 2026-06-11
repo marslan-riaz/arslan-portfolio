@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "AI & Machine Learning",
+      "highlight": true,
+      "skills": ["RAG Systems", "Google Gemini", "OpenAI APIs", "Embeddings", "Qdrant", "Pinecone", "Vector Search", "Prompt Engineering", "LangChain"]
+    },
+    {
+      "name": "Frontend",
+      "skills": ["React.js", "Next.js", "React Native", "Angular", "TypeScript", "JavaScript", "Tailwind CSS", "HTML/CSS", "EJS"]
+    },
+    {
+      "name": "Backend",
+      "skills": ["Node.js", "Express.js", "NestJS", "Sails.js", "REST APIs", "PHP", "Java / Spring", ".NET"]
+    },
+    {
+      "name": "Databases",
+      "skills": ["MongoDB", "SQL", "Oracle", "Sanity CMS", "Strapi"]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "skills": ["AWS", "AWS Serverless", "Azure", "Docker", "CI/CD", "Git / SVN"]
+    },
+    {
+      "name": "Other",
+      "skills": ["Unity 3D", "Client Communication", "Team Leadership", "Agile"]
+    }
+  ]
+}

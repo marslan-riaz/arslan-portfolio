@@ -1,0 +1,122 @@
+{
+  "featured": [
+    {
+      "name": "Portfolio AI Assistant",
+      "org": "Personal · Live on this site",
+      "url": "#ai",
+      "description": "The chatbot on this page. A full RAG pipeline: my career data is chunked, embedded with Gemini embeddings, stored in Qdrant, and retrieved at query time so Gemini answers with grounded, cited context. Express.js backend with rate limiting and session history.",
+      "tools": ["Express.js", "Google Gemini", "Qdrant", "RAG", "Next.js"],
+      "tags": ["AI"]
+    },
+    {
+      "name": "TAMM — Abu Dhabi Government",
+      "org": "Systems Ltd",
+      "url": "https://www.tamm.abudhabi/",
+      "description": "The unified digital services platform for the Abu Dhabi Government, bringing entities like police and food authority services to millions of residents. Worked on platform services built on Node.js.",
+      "tools": ["Node.js", "TAMM OS"],
+      "tags": ["Government", "Scale"]
+    },
+    {
+      "name": "Forex Worldwide",
+      "org": "Freelance / Contract",
+      "url": "https://forexworldwide.com/",
+      "description": "International remittance platform handling real money movement, built on a fully serverless AWS backend with a React frontend.",
+      "tools": ["AWS Serverless", "Node.js", "React"],
+      "tags": ["Fintech"]
+    },
+    {
+      "name": "Vanilla",
+      "org": "Systems Ltd",
+      "url": "",
+      "description": "Cross-platform mobile app that synchronises calendars and events across Google, Outlook and Apple, with a no-code layer letting users compose their own mini-apps.",
+      "tools": ["React Native", "NestJS", "Azure"],
+      "tags": ["Mobile"]
+    }
+  ],
+  "more": [
+    {
+      "name": "Taqatwar Pakistan",
+      "org": "Systems Ltd",
+      "url": "https://portal.taqatwarpakistan.org/",
+      "description": "Government-backed funding and charity platform for Unity Food, supporting nationwide welfare programs.",
+      "tools": ["Angular", ".NET"]
+    },
+    {
+      "name": "Texlenet",
+      "org": "Renesis Tech",
+      "url": "https://www.texlenet.com/",
+      "description": "Jobs and resources marketplace connecting multiple stakeholders in the textile industry.",
+      "tools": ["NestJS", "React", "MongoDB"]
+    },
+    {
+      "name": "Stardeous",
+      "org": "Renesis Tech",
+      "url": "",
+      "description": "Video platform in the spirit of YouTube with paid/premium content support for creators.",
+      "tools": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "name": "Delios CRM",
+      "org": "Contract",
+      "url": "https://admin.xeonda.com/",
+      "description": "Customer relationship management system on a serverless AWS architecture.",
+      "tools": ["AWS Serverless", "React"]
+    },
+    {
+      "name": "KleanKars",
+      "org": "GeniTeam",
+      "url": "https://kleankars.com/",
+      "description": "On-demand car wash booking service with full payment and scheduling flows.",
+      "tools": ["React", "Sails.js", "SQL", "AWS"]
+    },
+    {
+      "name": "Kate Somerville",
+      "org": "GeniTeam",
+      "url": "https://www.katesomerville.com",
+      "description": "E-commerce modules for a major US skincare brand.",
+      "tools": ["Node.js", "React", "MongoDB"]
+    },
+    {
+      "name": "The NOW Massage",
+      "org": "GeniTeam",
+      "url": "https://thenowmassage.com/",
+      "description": "Online booking system modules for a multi-branch massage boutique chain.",
+      "tools": ["Node.js", "EJS", "SQL"]
+    },
+    {
+      "name": "Xcademy",
+      "org": "GeniTeam",
+      "url": "https://www.xcademy.com/",
+      "description": "Ed-tech platform teaching creators how to grow on YouTube. Led the project from its initial stages.",
+      "tools": ["Sanity", "React", "MongoDB"]
+    },
+    {
+      "name": "Sybo",
+      "org": "GeniTeam",
+      "url": "http://sybo.io/",
+      "description": "Survey platform conducting research on behalf of companies.",
+      "tools": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "name": "N2Y Accessible Games",
+      "org": "GeniTeam",
+      "url": "https://www.n2y.com/l3-skills/",
+      "description": "Suite of 100 web games designed for children including visually impaired kids and kids with disabilities.",
+      "tools": ["Unity 3D"]
+    },
+    {
+      "name": "PresentMate",
+      "org": "EagleIA",
+      "url": "https://presentmate.com/",
+      "description": "Platform connecting professionals to industry events and expert-led training sessions as attendees or speakers.",
+      "tools": ["Angular", "Java Spring", "MongoDB"]
+    },
+    {
+      "name": "GobidTaxi",
+      "org": "EagleIA",
+      "url": "",
+      "description": "Ride marketplace where drivers bid on customer trips, giving riders the best price.",
+      "tools": ["Angular", "Java Spring", "MongoDB"]
+    }
+  ]
+}

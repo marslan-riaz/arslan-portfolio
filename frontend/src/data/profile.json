@@ -1,0 +1,26 @@
+{
+  "headline": "Full Stack Engineer who ships AI into production",
+  "summary": [
+    "I'm a Senior Software Engineer at Reach Group in Abu Dhabi with 8+ years of experience building web platforms end to end — frontend, backend, infrastructure and everything between. My core stack is the MERN ecosystem (MongoDB, Express, React, Node.js) extended with Next.js, NestJS, React Native and AWS serverless.",
+    "I've shipped software at every scale: TAMM, the Abu Dhabi Government's unified services platform used by millions of residents; fintech remittance platforms; CRMs; marketplaces; and mobile apps. Earlier in my career I also built Unity 3D games, including accessible games for visually impaired children.",
+    "Over the last two years I've focused heavily on applied AI: large language models, embeddings, vector databases and Retrieval-Augmented Generation (RAG). The AI assistant on this site is one I built myself — an Express.js RAG pipeline using Google Gemini and Qdrant that answers questions about my career from my own knowledge base. I believe the most valuable engineers today are the ones who can take AI from a demo to a reliable production system, and that's exactly what I do."
+  ],
+  "stats": [
+    { "value": "8+", "label": "Years of engineering" },
+    { "value": "20+", "label": "Production projects" },
+    { "value": "5", "label": "Countries' clients served" },
+    { "value": "1M+", "label": "Users on platforms I've built" }
+  ],
+  "aiFocus": {
+    "title": "AI & LLM Engineering",
+    "description": "Beyond classic full-stack work, I design and build AI-powered features: RAG pipelines, semantic search with vector databases, LLM API integrations (Gemini, OpenAI, Claude), prompt engineering, and AI chat interfaces. The assistant on this page is a live demo — its backend is Express.js, its memory is a Qdrant vector store, and its brain is Google Gemini.",
+    "capabilities": [
+      "Retrieval-Augmented Generation (RAG) pipelines",
+      "Vector databases: Qdrant, Pinecone, MongoDB Atlas Vector Search",
+      "LLM integrations: Google Gemini, OpenAI, Anthropic Claude",
+      "Embeddings, chunking & semantic search",
+      "AI chat UX: streaming, history, citations",
+      "Prompt engineering & evaluation"
+    ]
+  }
+}
