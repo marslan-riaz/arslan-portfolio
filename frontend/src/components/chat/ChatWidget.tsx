@@ -6,7 +6,10 @@ import site from "@/data/site.json";
 
 type Message = { role: "user" | "assistant"; content: string };
 
-const API_URL = (process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000").replace(/\/+$/, "");
+const CHAT_API_URL = new URL(
+  "/api/chat",
+  process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000"
+).href;
 
 const WELCOME: Message = {
   role: "assistant",
@@ -30,7 +33,7 @@ export default function ChatWidget() {
       setMessages((m) => [...m, { role: "user", content: question }]);
       setLoading(true);
       try {
-        const res = await fetch(`${API_URL}/api/chat`, {
+        const res = await fetch(CHAT_API_URL, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ message: question, sessionId }),

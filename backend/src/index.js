@@ -8,6 +8,14 @@ assertConfig();
 
 const app = express();
 
+// Normalize accidental double slashes (e.g. //api/chat from a trailing-slash API URL)
+app.use((req, _res, next) => {
+  if (req.url.includes("//")) {
+    req.url = req.url.replace(/\/{2,}/g, "/");
+  }
+  next();
+});
+
 app.use(
   cors({
     origin: config.corsOrigins,
