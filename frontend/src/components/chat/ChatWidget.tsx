@@ -6,7 +6,7 @@ import site from "@/data/site.json";
 
 type Message = { role: "user" | "assistant"; content: string };
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
+const API_URL = (process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000").replace(/\/+$/, "");
 
 const WELCOME: Message = {
   role: "assistant",
