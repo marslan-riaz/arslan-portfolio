@@ -105,7 +105,7 @@ export default function ChatWidget() {
           <div className="flex items-center justify-between bg-ink px-5 py-4">
             <div>
               <p className="font-display text-sm font-semibold text-white">Arslan&apos;s AI Assistant</p>
-              <p className="font-mono text-[11px] text-white/60">RAG · Gemini + Qdrant + Express</p>
+              <p className="font-mono text-[11px] text-white/60">Ask my anything about my work</p>
             </div>
             <span className="flex items-center gap-1.5 font-mono text-[11px] text-emerald-400">
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" aria-hidden /> online
