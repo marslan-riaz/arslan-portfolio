@@ -7,9 +7,9 @@ export default function Footer() {
         <p>
           © {new Date().getFullYear()} {site.name} · {site.location}
         </p>
-        <p className="font-mono text-xs">
+        {/* <p className="font-mono text-xs">
           Next.js · Express · Gemini · Qdrant — including the AI assistant, built by me.
-        </p>
+        </p> */}
       </div>
     </footer>
   );

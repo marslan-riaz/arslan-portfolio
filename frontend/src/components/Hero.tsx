@@ -59,15 +59,15 @@ export default function Hero() {
         {/* Signature element: live RAG console */}
         <div className="animate-rise rounded-xl border border-line bg-white shadow-sm" style={{ animationDelay: "120ms" }}>
           <div className="flex items-center justify-between border-b border-line px-5 py-3">
-            <span className="font-mono text-xs text-steel">arslan-ai · RAG over this portfolio</span>
+            <span className="font-mono text-xs text-steel">ask-arslan  ·  know my work, not just my resume            </span>
             <span className="flex items-center gap-1.5 font-mono text-xs text-brand">
               <span className="h-2 w-2 rounded-full bg-brand" aria-hidden /> live
             </span>
           </div>
           <div className="space-y-4 px-5 py-6">
             <p className="text-sm text-steel">
-              This isn&apos;t a mock — it&apos;s a real retrieval-augmented chatbot I built.
-              <span className="font-mono text-xs text-steel/70"> Express.js → Gemini embeddings → Qdrant → Gemini.</span>
+            Not a brochure. A conversation.
+              <span className="font-mono text-xs text-steel/70"> actually reads my portfolio before answering.</span>
             </p>
             <div className="space-y-2">
               {starterQuestions.map((q) => (
