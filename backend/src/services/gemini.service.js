@@ -42,7 +42,7 @@ export async function generateAnswer(systemPrompt, history, userMessage) {
     ai.models.generateContent({
       model: config.gemini.chatModel,
       contents,
-      config: { systemInstruction: systemPrompt, temperature: 0.4, maxOutputTokens: 800 },
+      config: { systemInstruction: systemPrompt, temperature: config.gemini.temperature, maxOutputTokens: config.gemini.maxOutputTokens },
     })
   );
   return res.text;
