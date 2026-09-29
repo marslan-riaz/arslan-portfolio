@@ -1,6 +1,7 @@
 import { embedQuery, generateAnswer } from "./gemini.service.js";
 import { searchSimilar } from "./qdrant.service.js";
 import { config } from "../config.js";
+import { rerankChunks } from "../utils/reranker.js";
 
 // In-memory per-session history (swap for Redis in production if needed)
 const sessions = new Map();
@@ -33,8 +34,13 @@ export async function answerQuestion(sessionId, message) {
   const queryVector = await embedQuery(message);
   const chunks = await searchSimilar(queryVector);
 
+  console.time('Cohere-Rerank-Latency');
+  const rerankedChunks = await rerankChunks(message, chunks);
+  console.timeEnd('Cohere-Rerank-Latency');
+
+  // const contextText = rerankedChunks.map((chunk, idx) => `[${idx + 1}] (${chunk.source})\n${chunk.text}`).join('\n\n');
   const history = getHistory(sessionId);
-  const systemPrompt = buildSystemPrompt(chunks);
+  const systemPrompt = buildSystemPrompt(rerankedChunks);
   const answer = await generateAnswer(systemPrompt, history, message);
 
   // persist trimmed history
@@ -44,6 +50,6 @@ export async function answerQuestion(sessionId, message) {
 
   return {
     answer,
-    sources: [...new Set(chunks.map((c) => c.source))],
+    sources: [...new Set(rerankedChunks.map((c) => c.source))],
   };
 }

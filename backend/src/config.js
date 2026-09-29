@@ -12,6 +12,9 @@ export const config = {
       chatModel: process.env.GEMINI_CHAT_MODEL || "gemini-2.5-flash",
       embeddingModel: process.env.GEMINI_EMBEDDING_MODEL || "gemini-embedding-001",
       embeddingDim: 768, // gemini-embedding-001, truncated via outputDimensionality
+      temperature: 0.4,
+      maxOutputTokens: 800,
+      maxHistoryTurns: 6, // chat turns kept per session
     },
 
   qdrant: {
@@ -21,7 +24,7 @@ export const config = {
   },
 
   rag: {
-    topK: 5,            // chunks retrieved per question
+    topK: 20,//5,            // chunks retrieved per question
     minScore: 0.35,     // similarity threshold
     maxHistoryTurns: 6, // chat turns kept per session
   },

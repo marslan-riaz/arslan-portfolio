@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@langchain/core": "^1.2.9",
+    "@langchain/langgraph": "^1.4.13",
+    "cohere-ai": "^8.1.0"
+  }
+}
