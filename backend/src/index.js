@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import { config, assertConfig } from "./config.js";
 import chatRoutes from "./routes/chat.routes.js";
+import triageRoutes from "./routes/triage.routes.js";
 import { errorHandler } from "./middleware/errorHandler.js";
 
 assertConfig();
@@ -26,6 +27,7 @@ app.use(express.json({ limit: "10kb" }));
 
 app.get("/health", (_req, res) => res.json({ status: "ok" }));
 app.use("/api", chatRoutes);
+app.use("/api", triageRoutes);
 
 app.use(errorHandler);
 

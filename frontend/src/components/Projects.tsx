@@ -4,14 +4,15 @@ import projects from "@/data/projects.json";
 function ProjectLink({ url, name }: { url: string; name: string }) {
   if (!url || url.startsWith("#"))
     return <span className="font-display text-lg font-semibold text-ink">{name}</span>;
+  const external = /^https?:\/\//.test(url);
   return (
     <a
       href={url}
-      target="_blank"
-      rel="noopener noreferrer"
+      {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
       className="font-display text-lg font-semibold text-ink underline-offset-4 hover:text-brand hover:underline"
     >
-      {name} ↗
+      {name}
+      {external ? " ↗" : ""}
     </a>
   );
 }
