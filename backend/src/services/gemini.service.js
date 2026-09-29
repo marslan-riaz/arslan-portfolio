@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import { config } from "../config.js";
 
 let client;
-function getClient() {
+export function getClient() {
   if (!client) client = new GoogleGenAI({ apiKey: config.gemini.apiKey });
   return client;
 }
@@ -48,7 +48,7 @@ export async function generateAnswer(systemPrompt, history, userMessage) {
   return res.text;
 }
 
-async function withRetry(fn, { retries = 5, baseDelay = 1500 } = {}) {
+export async function withRetry(fn, { retries = 5, baseDelay = 1500 } = {}) {
   for (let attempt = 0; attempt <= retries; attempt++) {
     try {
       return await fn();
