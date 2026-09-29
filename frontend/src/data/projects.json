@@ -13,7 +13,7 @@
       "org": "Personal · Live on this site",
       "url": "/email-triage",
       "description": "A live inbox demo. Trusted senders are kept before any model call. Every other message is scored for bulk mail versus whether you have to act, then filed as keep, archive, or review.",
-      "tools": ["Node.js", "Express", "Gemini", "Next.js"],
+      "tools": ["Node.js", "Express", "Jev", "Next.js"],
       "tags": ["AI"]
     },
     {
